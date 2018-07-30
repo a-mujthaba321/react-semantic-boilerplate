@@ -15,11 +15,13 @@ class CourseList extends Component {
   }
 
   renderCourses() {
-    return _.map(this.props.courses, course => (
-      <li className="list-group-item" key={course.id}>
-        <Link to={`/courses/${course.id}`}> {course.courseName} </Link>
-      </li>
-    ));
+    if (this.props.courses) {
+      return _.map(this.props.courses, course => (
+        <li className="list-group-item" key={course.id}>
+          <Link to={`/courses/${course.id}`}> {course.courseName} </Link>
+        </li>
+      ));
+    }
   }
 
   render() {

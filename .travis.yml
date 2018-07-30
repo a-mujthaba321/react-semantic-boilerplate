@@ -3,8 +3,22 @@ language: node_js
 node_js:
   - stable
 
+cache:
+  directories:
+    - node_modules
+
 install:
   - npm install
 
 script:
-  - npm test
+  - npm run build
+
+deploy:
+  provider: surge
+  skip_cleanup: true
+  domain: delta-charlie.surge.sh
+  project: ./dist/
+on:
+  branch: master
+
+  

@@ -11,7 +11,7 @@ import { withTransition } from '../components/hoc/withTransition';
 
 class CourseList extends Component {
   componentDidMount() {
-    this.props.fetchCourses();
+    // this.props.fetchCourses();
   }
 
   renderCourses() {

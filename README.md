@@ -1,1 +1,1 @@
-# react-semantic-boilerplate
+# react-semantic-ui-boilerplate

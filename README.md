@@ -22,8 +22,8 @@ This project is forked from the fantastic [react-webpack boilerplate](https://gi
 
 ## Installation
 
-* `git clone git@github.com:rwieruch/minimal-react-webpack-babel-setup.git`
-* cd minimal-react-webpack-babel-setup
+* `git clone https://github.com/a-mujthaba321/react-semantic-boilerplate.git`
+* cd react-semantic-ui-boilerplate
 * npm install
 * npm start
-* visit `http://localhost:8080/`
+* visit `http://localhost:3000/`
